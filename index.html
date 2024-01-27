@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="resources/skills.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gautham's Professional Portfolio</title>
+</head>
+<body>
+    <header>
+        <menu>
+            <a href="#summary">Summary</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </menu>
+    </header>
+        <section id="summary" class="main">
+            <img src="resources/ProfilePic.jpg" alt="Profile Image" class="profile-img">
+            <h1>Gautham V</h1>
+            <p>Result-oriented Software Engineer with a strong foundation in computer science and a passion for creating innovative solutions. Currently pursuing a Master of Science in Software Engineering Systems at Northeastern University. Experienced in full-stack development, project collaboration, and utilizing a wide range of programming languages and tools.</p>
+        </section>
+
+        <section id="education"  class="main">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Master of Science in Software Engineering Systems</td>
+                    <td>Northeastern University, Boston MA</td>
+                    <td>2023 - Present</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Technology in Computer Science</td>
+                    <td>Vellore Institute of Technology, Chennai India</td>
+                    <td>Completed</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="skills"  class="main">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>JavaScript, TypeScript</li>
+                <li>Python, Java</li>
+                <li>React, React Native, Angular</li>
+                <li>HTML, CSS</li>
+                <li>Git, UiPath, Tableau</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="main">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>Software Engineer - Renault Nissan Technology and Business Centre (RNTBCI)</h3>
+                <p>Jan 2021 – Aug 2023, Chennai India</p>
+                <ul>
+                    <li>Received training in React and Angular for web development.</li>
+                    <li>Contributed to a project focused on validating Test Benches.</li>
+                    <li>Collaborated with Product Owners and Business Analysts to understand and address business requirements.</li>
+                    <li>Worked alongside Senior Developers to maintain application performance.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Internship - Mobile App Developer - Sigaram Technologies</h3>
+                <p>Feb 2020 – May 2020, Chennai India</p>
+                <ul>
+                    <li>Worked on a React-Native application for news listening in text-to-speech format.</li>
+                    <li>Implemented text to speech conversion using Amazon Polly.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="main">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Disaster Management Bot</h3>
+                <p>Dec 2018 – Apr 2019</p>
+                <ul>
+                    <li>Created a robot that explores disaster areas while making a map of where it’s been.</li>
+                    <li>The robot can call for help when needed and send live video when it spots a person.</li>
+                    <li>It shares its map with other robots to speed up search efforts during disasters.</li>
+                </ul>
+                <audio controls>
+                    <source src="resources/sample.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="project-item">
+                <h3>Distributed Attendance System</h3>
+                <p>Apr 2019 – Jun 2020</p>
+                <ul>
+                    <li>Developed a mobile app utilizing facial recognition and QR scanning for streamlined attendance tracking.</li>
+                    <li>Created a web portal for educators to manage attendance more efficiently, reducing fraud and administrative overhead.</li>
+                </ul>
+                <video width="320" height="240" controls>
+                    <source src="resources/lifeinbookclub.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="certifications" class="main">
+            <h2>Certifications</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="resources/cert1.png" alt="Certification 1">
+                    <figcaption>Udemy Certification</figcaption>
+                </figure>
+                <figure>
+                    <img src="resources/cert2.png" alt="Certification 2">
+                    <figcaption>IIT Bombay Certification</figcaption>
+                </figure>
+                <figure>
+                    <img src="resources/cert3.png" alt="Certification 3">
+                    <figcaption>AWS Cloud Practitioner Certification</figcaption>
+                </figure>
+            </div>
+        </section>
+    
+    <footer>
+        <section id="contact" class="main">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <p>Phone: <a href="tel:+1(857)-423-0798">+1(857)-423-0798</a></p>
+            <p>Email: <a href="mailto:gauthamperam@gmail.com">gauthamperam@gmail.com</a></p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
